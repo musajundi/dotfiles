@@ -131,8 +131,8 @@ alias prod_rails_c="heroku run rails console -a flywheel"
 alias r="rails"
 alias cdfw="cd ~/dev/code/flywheel-app"
 alias cdp="cd ~/dev/personal"
-alias cdnvim="cd ~/.config/nvim"
-alias zshconfig="nvim ~/.zshrc"
+alias cdnvim="cd ~/dev/dotfiles/nvim"
+alias cdcf="nvim ~/dev/dotfiles"
 
 eval "$(direnv hook zsh)"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
