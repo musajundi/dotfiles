@@ -2,7 +2,7 @@
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 # If you come from bash you might have to change your $PATH.
@@ -132,7 +132,7 @@ alias r="rails"
 alias cdfw="cd ~/dev/code/flywheel-app"
 alias cdp="cd ~/dev/personal"
 alias cdnvim="cd ~/dev/dotfiles/nvim"
-alias cdcf="nvim ~/dev/dotfiles"
+alias cdcf="cd ~/dev/dotfiles"
 
 eval "$(direnv hook zsh)"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
