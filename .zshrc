@@ -139,7 +139,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export EDITOR=nvim
 export VISUAL="$EDITOR"
-
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
 # pnpm
 export PNPM_HOME="/Users/musa.jundi/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
