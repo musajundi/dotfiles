@@ -25,6 +25,7 @@ return require('packer').startup(function(use)
     use('tpope/vim-fugitive')
 
     use('lewis6991/gitsigns.nvim')
+    use('f-person/git-blame.nvim')
 
     -- autocompletion
     use("hrsh7th/nvim-cmp") -- completion plugin

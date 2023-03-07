@@ -31,6 +31,8 @@ map.set("n", "<C-u>", "<C-u>zz")
 map.set("n", "n", "nzzzv")
 map.set("n", "N", "Nzzzv")
 
+map.set("n", "<C-w>", ":bp<bar>sp<bar>bn<bar>bd<CR>")
+
 -- greatest remap ever
 map.set("x", "<leader>p", [["_dP]])
 
