@@ -139,6 +139,7 @@ alias cdcf="cd ~/dev/dotfiles"
 eval "$(direnv hook zsh)"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+export PAGER="most"
 export EDITOR=nvim
 export VISUAL="$EDITOR"
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
